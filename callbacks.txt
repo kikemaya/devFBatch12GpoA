@@ -1,0 +1,10 @@
+Funcion de orden superior(higher- order function):
+Son funciones que reciben como parametro otra funcion
+
+function soyDeOrdenSuperior(otraFuncionEnEsteCasoSoyUnCallback) {
+    return otraFuncionEnEsteCasoSoyUnCallback()
+}
+
+Callback, seria la funcion que es pasada como parametro,
+mas no la funcion que la recibe. El callback se genera cuando 
+una funcion b, ejecuta por dentro una funcion a, que recibio como argumento

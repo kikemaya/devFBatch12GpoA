@@ -1,0 +1,11 @@
+{
+    "nombre" : "Enrique",
+    "edad" : 21,
+    "gustos" : {
+        "musica" : "pop",
+        "peliculas" : ["forrest gump", "kingsman"]
+    }
+}
+
+Escriba un programa que basado en una serie de numeros del 1 al 20,
+si hay un numero divisible por 3, escriba en consola "Fizz" y por cada numero divisible por 5, "Buzz". Si hay un numero divisible entre 3 y 5, imprimir en consola "Fizz Buzz"
