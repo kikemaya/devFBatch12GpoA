@@ -4,7 +4,9 @@
   "description": "Mi primer configuracion",
   "main": "index.js",
   "scripts": {
-    "suma": "node sumaScript.js"
+    "start": "nodemon index.js",
+    "suma": "node sumaScript.js",
+    "develop": "nodemon index.js"
   },
   "repository": {
     "type": "git",
